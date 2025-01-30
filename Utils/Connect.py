@@ -12,17 +12,6 @@ gateway = os.getenv('CAMURI')
 port = os.getenv('HTTP')
 ssl = os.getenv('SSL')
 
-## Example interactive Auth
-# user = input("TM1 User (leave empty if SSO): ")
-# password = getpass.getpass("Password (leave empty if SSO): ")
-user = user
-password = pw
-namespace = namespace
-address = address
-gateway = gateway
-port = port
-ssl = ssl
-
 def test_connect():
     """Test Connection to TM1 Server -> will print server name to console"""
 
@@ -33,7 +22,7 @@ def test_connect():
                 address=address,
                 port=port,
                 user=user,
-                password=password,
+                password=pw,
                 namespace=namespace,
                 gateway=gateway,
                 ssl=ssl) as tm1:
