@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from TM1py.Services import TM1Service
 
 # envs for connection
-load_dotenv()
+load_dotenv(override=True)
 user = os.getenv('ADM_USER')
 pw = os.getenv('ADM_PW')
 namespace = os.getenv('CAM')

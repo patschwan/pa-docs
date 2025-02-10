@@ -1,0 +1,7 @@
+name;dstype;dsref
+COPY_Sales_to_Report;TM1CubeView;x.All
+ti-get-all-infos;;
+ti-import-csv;ASCII;C:\Users\info\OneDrive\Jupyter Notebooks\import\sales_data_sample.csv
+ti-sleep-180;;
+ti_raise_another_error;;
+ti_raise_error;;
