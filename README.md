@@ -7,3 +7,4 @@ IBM Planning Analytics TM1 Model Documentation
 # Changelog
 - 2024-01-26: Init of project
 - 2024-02-10: Added CSV Export and further infos per cube
+- 2026-05-04: Updated 1,5y later...
